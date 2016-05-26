@@ -1,6 +1,6 @@
 # Git Definitions
 
-**Instructions: ** Define each of the following Git concepts.
+## These are the definitions and explanations of git
 
 * Version control is a way of "saving" or rather committing, every change made to code in order to prevent conflicts and issues when trying to build additional features.
 * A branch is a small chunk of code to add to the "master" part of the repo slowly over time. You work in branches in order to not destroy the part of your code that is fundamental and works.
