@@ -1,4 +1,4 @@
-# Git Definitions
+# Git 
 
 ## These are the definitions and explanations of git
 
