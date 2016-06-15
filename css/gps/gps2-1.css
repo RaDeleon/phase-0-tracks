@@ -1,3 +1,28 @@
-* {
-  background: blue;
+header {
+  border: 3px solid black;
+  text-align: center;
+}
+
+.column-1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 75px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 75px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+footer {
+  border: 3px solid black;
+  text-align: center;
 }
