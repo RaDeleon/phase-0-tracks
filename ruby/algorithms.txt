@@ -1,0 +1,33 @@
+Angelo Deleon 2016
+
+Code:
+Elevator Robot Attendant
+
+ALGORITHM:
+- For each load of passengers
+    - Call out what floor they need to go to.
+        after responses are received put them in numerical order
+- Press the first floor number on the list of stops
+    + once stop has been made on floor # remove from list
+    + press next number on panel and process to next floor
+- Proceed doing this until all numbers/floors have been discarded go to floor one and wait for new passengers.
+- OPTIONAL: if passengers board on way up to top floor ask them there floor number and add to list if number is above the current floor number if not add to second list.
+- reverse list from largest to smallest floor number and go in reverse.
+- Repeat process from beginning.
+
+Codename:
+Feed the Dog water bowl
+
+Info:
+The water bowl and food bowl will be weighed out to calculate time to add food or water to bowl.
+
+Algorithm:
+1.Every morning at 8am PST check water bowl 
+    - check weight of bowl
+    - if weight is 10oz bowl is full 
+        wait 3hours and repeat process
+    -if weight is less then 10oz add measured 2oz cup of water
+        - weight again and check if weight is equal to 10oz if not repeat step 
+        - if weight is greater then or equal to 10oz wait 3hours repeat process.
+2. If temp outside is greater or equal to 80 degrees check water levels every 2hours.
+
