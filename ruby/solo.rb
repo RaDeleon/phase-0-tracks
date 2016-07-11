@@ -1,7 +1,4 @@
-#class Solo Project
-at least three attributes (using at least two data types) whose values will vary from instance to instance (example: age)
-at least three methods, at least one of which takes an argument
-#Class Guitar
+
 #class Solo Project
 #at least three attributes (using at least two data types) whose values will vary from instance to instance (example: age)
 #at least three methods, at least one of which takes an argument
@@ -27,6 +24,14 @@ class Guitar
 		@serial_number = 1
 	end
 
+
+  
+	def serial_number
+	  @serial_number += rand(1..500)
+	  puts "The serial number is #{@serial_number}"
+	end
+	
+	
 	def play(mins)
 		if mins < 5
 			puts "Played guitar for #{mins} mins your aimless!"
@@ -34,11 +39,6 @@ class Guitar
 			puts "Played guitar for #{mins}, Keep it goin!!!"
 		end
 	end
-
-	def serial_number
-	  @serial_number += rand(1..500) 
-	end
-	
 
 def guitar_stats
 	store_guitars = true
